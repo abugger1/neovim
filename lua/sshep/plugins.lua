@@ -44,6 +44,26 @@ local fn = vim.fn
     use "wbthomason/packer.nvim"
     use "nvim-lua/popup.nvim"
     use "nvim-lua/plenary.nvim"
+    
+--  cmp plugins
+  use "hrsh7th/nvim-cmp"
+  use "hrsh7th/cmp-path" 
+  use "hrsh7th/cmp-buffer"
+  use "hrsh7th/cmp-cmdline"
+  use "saadparwaiz1/cmp_luasnip"
+  use "petertriho/cmp-git"
+
+  --snippets
+  use "L3MON4D3/LuaSnip"
+  use "rafamadriz/friendly-snippets"
+
+
+  --Colorschemes
+  use "lunarvim/colorschemes" 
+  use "folke/tokyonight.nvim"
+  use "LunarVim/onedarker.nvim"
+  use "LunarVim/darkplus.nvim"
+
 
     -- Automatically setup your configuration after cloning packer.nvim
     -- Put this at the end after all plugins

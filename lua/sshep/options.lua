@@ -16,7 +16,7 @@ local options = {
   splitbelow = true,
   splitright = true,
   swapfile = false,
-  -- termguicolors = true,
+  termguicolors = true,
   timeoutlen = 1000,
   updatetime = 300,
   writebackup = false,
@@ -31,7 +31,7 @@ local options = {
   wrap = false,
   scrolloff = 8,
   sidescrolloff = 8,
-  guifont ="fira code mono nerd font:h17",
+guifont ="fira code mono nerd font:h17",
 }
 
   vim.opt.shortmess:append "c"
