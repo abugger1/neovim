@@ -3,4 +3,6 @@
   require "sshep.plugins"
   require "sshep.colorscheme"
   require "sshep.cmp"
+  require "sshep.lsp"
+
 

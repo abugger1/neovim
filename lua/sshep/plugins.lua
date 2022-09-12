@@ -52,11 +52,15 @@ local fn = vim.fn
   use "hrsh7th/cmp-cmdline"
   use "saadparwaiz1/cmp_luasnip"
   use "petertriho/cmp-git"
-
+  use "hrsh7th/cmp-nvim-lsp"
+  
   --snippets
   use "L3MON4D3/LuaSnip"
   use "rafamadriz/friendly-snippets"
 
+  --LSP
+  use "neovim/nvim-lspconfig"
+  use "williamboman/nvim-lsp-installer"
 
   --Colorschemes
   use "lunarvim/colorschemes" 
