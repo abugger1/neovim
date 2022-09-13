@@ -6,5 +6,7 @@
   require "sshep.lsp"
   require("sshep.telescope")
   require("sshep.treesitter")
+  require("sshep.autopairs")
+  require("sshep.comment")
 
 

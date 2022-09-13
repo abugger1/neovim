@@ -55,6 +55,9 @@ local fn = vim.fn
   use "hrsh7th/cmp-nvim-lsp"
   use "hrsh7th/cmp-nvim-lua"
 
+  -- Comment plugins
+  use "numToStr/Comment.nvim"
+
 
   --snippets
   use "L3MON4D3/LuaSnip"
@@ -75,7 +78,9 @@ local fn = vim.fn
   }
   use "p00f/nvim-ts-rainbow"
   use "nvim-treesitter/playground"
-
+  use "JoosepAlviste/nvim-ts-context-commentstring"
+  -- Autopairs
+  use "windwp/nvim-autopairs"
 
   --Colorschemes
   use "lunarvim/colorschemes" 
