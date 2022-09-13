@@ -73,7 +73,9 @@ local fn = vim.fn
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
-  
+  use "p00f/nvim-ts-rainbow"
+  use "nvim-treesitter/playground"
+
 
   --Colorschemes
   use "lunarvim/colorschemes" 
