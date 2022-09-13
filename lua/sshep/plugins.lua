@@ -53,7 +53,9 @@ local fn = vim.fn
   use "saadparwaiz1/cmp_luasnip"
   use "petertriho/cmp-git"
   use "hrsh7th/cmp-nvim-lsp"
-  
+  use "hrsh7th/cmp-nvim-lua"
+
+
   --snippets
   use "L3MON4D3/LuaSnip"
   use "rafamadriz/friendly-snippets"
