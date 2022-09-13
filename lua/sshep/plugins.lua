@@ -68,6 +68,12 @@ local fn = vim.fn
   use "nvim-telescope/telescope.nvim"
   use "nvim-telescope/telescope-media-files.nvim"
     
+  -- Treesitter
+  use {
+    "nvim-treesitter/nvim-treesitter",
+    run = ":TSUpdate",
+  }
+  
 
   --Colorschemes
   use "lunarvim/colorschemes" 

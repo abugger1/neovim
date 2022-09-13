@@ -144,6 +144,11 @@ _G.packer_plugins = {
     path = "/home/sshep/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/sshep/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
   ["onedarker.nvim"] = {
     loaded = true,
     path = "/home/sshep/.local/share/nvim/site/pack/packer/start/onedarker.nvim",

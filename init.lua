@@ -5,4 +5,6 @@
   require "sshep.cmp"
   require "sshep.lsp"
   require("sshep.telescope")
+  require("sshep.treesitter")
+
 
