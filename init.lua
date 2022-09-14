@@ -8,5 +8,7 @@
   require("sshep.treesitter")
   require("sshep.autopairs")
   require("sshep.comment")
+  require("sshep.gitsigns")
+  require("sshep.nvim-tree")
 
 
