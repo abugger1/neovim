@@ -5,3 +5,4 @@ end
 
 require("sshep.lsp.lsp-installer")
 require("sshep.lsp.handlers").setup()
+require("sshep.lsp.null-ls")

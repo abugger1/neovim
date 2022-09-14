@@ -44,10 +44,10 @@ local fn = vim.fn
     use "wbthomason/packer.nvim"
     use "nvim-lua/popup.nvim"
     use "nvim-lua/plenary.nvim"
-    
+
 --  cmp plugins
   use "hrsh7th/nvim-cmp"
-  use "hrsh7th/cmp-path" 
+  use "hrsh7th/cmp-path"
   use "hrsh7th/cmp-buffer"
   use "hrsh7th/cmp-cmdline"
   use "saadparwaiz1/cmp_luasnip"
@@ -66,11 +66,13 @@ local fn = vim.fn
   --LSP
   use "neovim/nvim-lspconfig"
   use "williamboman/nvim-lsp-installer"
+  use "sumneko/lua-language-server"
+  use "jose-elias-alvarez/null-ls.nvim"
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
   use "nvim-telescope/telescope-media-files.nvim"
-    
+
   -- Treesitter
   use {
     "nvim-treesitter/nvim-treesitter",
@@ -89,13 +91,13 @@ local fn = vim.fn
   --NvimTree
   use "kyazdani42/nvim-web-devicons"
   use "kyazdani42/nvim-tree.lua"
-  
+
   -- Bufferline
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
 
   --Colorschemes
-  use "lunarvim/colorschemes" 
+  use "lunarvim/colorschemes"
   use "folke/tokyonight.nvim"
   use "LunarVim/onedarker.nvim"
   use "LunarVim/darkplus.nvim"
