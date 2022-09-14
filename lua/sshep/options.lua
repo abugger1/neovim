@@ -31,7 +31,7 @@ local options = {
   wrap = false,
   scrolloff = 8,
   sidescrolloff = 8,
-guifont ="fira code mono nerd font:h20",
+guifont ="monospace:h20",
 }
 
   vim.opt.shortmess:append "c"

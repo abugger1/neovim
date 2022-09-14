@@ -10,5 +10,6 @@
   require("sshep.comment")
   require("sshep.gitsigns")
   require("sshep.nvim-tree")
+  require("sshep.bufferline")
 
 

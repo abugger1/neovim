@@ -89,8 +89,10 @@ local fn = vim.fn
   --NvimTree
   use "kyazdani42/nvim-web-devicons"
   use "kyazdani42/nvim-tree.lua"
-
-
+  
+  -- Bufferline
+  use "akinsho/bufferline.nvim"
+  use "moll/vim-bbye"
 
   --Colorschemes
   use "lunarvim/colorschemes" 
