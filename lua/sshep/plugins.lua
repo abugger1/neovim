@@ -96,6 +96,14 @@ local fn = vim.fn
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
 
+
+  -- lualine
+  use "nvim-lualine/lualine.nvim"
+
+
+  -- toggleterm
+  use "akinsho/toggleterm.nvim"
+
   --Colorschemes
   use "lunarvim/colorschemes"
   use "folke/tokyonight.nvim"
