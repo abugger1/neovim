@@ -17,6 +17,7 @@ local diagnostics = {
   always_visible = true,
 }
 
+
 local diff = {
   "diff",
   colored = false,
